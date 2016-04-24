@@ -11,7 +11,7 @@ import (
 	"time"
 
 	"github.com/Sirupsen/logrus"
-	lego "github.com/xenolf/lego/acme"
+	lego "github.com/xenolf/beekpr/acme"
 )
 
 const (

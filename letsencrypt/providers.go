@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"os"
 
-	lego "github.com/xenolf/lego/acme"
-	"github.com/xenolf/lego/providers/dns/cloudflare"
-	"github.com/xenolf/lego/providers/dns/digitalocean"
-	"github.com/xenolf/lego/providers/dns/dnsimple"
-	"github.com/xenolf/lego/providers/dns/dyn"
-	"github.com/xenolf/lego/providers/dns/route53"
+	lego "github.com/xenolf/beekpr/acme"
+	"github.com/beekpr/lego/providers/dns/cloudflare"
+	"github.com/beekpr/lego/providers/dns/digitalocean"
+	"github.com/beekpr/lego/providers/dns/dnsimple"
+	"github.com/beekpr/lego/providers/dns/dyn"
+	"github.com/beekpr/lego/providers/dns/route53"
 )
 
 // ProviderOpts is used to configure the DNS provider

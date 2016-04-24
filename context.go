@@ -7,8 +7,8 @@ import (
 	"time"
 
 	"github.com/Sirupsen/logrus"
-	"github.com/janeczku/rancher-letsencrypt/letsencrypt"
-	"github.com/janeczku/rancher-letsencrypt/rancher"
+	"github.com/beekpr/rancher-letsencrypt/letsencrypt"
+	"github.com/beekpr/rancher-letsencrypt/rancher"
 )
 
 const (
