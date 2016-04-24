@@ -7,7 +7,7 @@
 PROJECT := rancher-letsencrypt
 PLATFORMS := linux
 ARCH := amd64
-DOCKER_IMAGE := beekpr/$(PROJECT)
+DOCKER_IMAGE := bkpr/$(PROJECT)
 
 VERSION := $(shell cat VERSION)
 SHA := $(shell git rev-parse --short HEAD)
