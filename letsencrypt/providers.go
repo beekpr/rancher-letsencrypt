@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	lego "github.com/xenolf/beekpr/acme"
+	lego "github.com/beekpr/lego/acme"
 	"github.com/beekpr/lego/providers/dns/cloudflare"
 	"github.com/beekpr/lego/providers/dns/digitalocean"
 	"github.com/beekpr/lego/providers/dns/dnsimple"

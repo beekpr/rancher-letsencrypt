@@ -10,7 +10,7 @@ import (
 	"strings"
 
 	"github.com/Sirupsen/logrus"
-	lego "github.com/xenolf/beekpr/acme"
+	lego "github.com/beekpr/lego/acme"
 )
 
 type Account struct {
